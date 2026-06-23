@@ -1,0 +1,170 @@
+[
+  {
+    "id": "dental-implants",
+    "title": "Dental Implants",
+    "image": "img/Icons/implants-teeth-svgrepo-com.svg",
+    "shortDesc": "Permanent tooth replacement with titanium implants that look, feel, and function like natural teeth. Restore your smile with lasting confidence.",
+    "category": "dental-services"
+  },
+  {
+    "id": "orthodontic-braces",
+    "title": "Braces and Aligners",
+    "image": "img/Icons/OrthodonticBraces.svg", 
+    "shortDesc": "Straighten misaligned teeth with modern metal, ceramic, self-ligating braces, and clear aligners customized for every age group.",
+    "category": "dental-services"
+  },
+  {
+    "id": "root-canal",
+    "title": "Root Canal Treatment",
+    "icon": "healthicons:odontology-outline",
+    "shortDesc": "Advanced painless root canal therapy to save infected teeth using rotary endodontics and digital imaging.",
+    "category": "dental-services"
+  },
+  {
+    "id": "crown-bridge",
+    "title": "Crown & Bridge",
+    "icon": "mdi:tooth-outline",
+    "shortDesc": "High-quality porcelain and zirconia crowns & bridges to restore damaged or missing teeth with natural aesthetics.",
+    "category": "dental-services"
+  },
+  {
+    "id": "dental-gum-surgery",
+    "title": "Dental Gum Surgery",
+    "image": "img/Icons/DentalGumSurgery.svg",
+    "shortDesc": "Advanced treatment to control gum infections through scaling, root planing, and specialized procedures like bone grafts and flap surgery.",
+    "category": "dental-services"
+  },
+  {
+    "id": "cosmetic-gum-surgery",
+    "title": "Cosmetic Gum Surgery",
+    "icon": "healthicons:mouth-outline",
+    "shortDesc": "Also known as gum plastic surgery, this procedure corrects gum height for people who feel their gums are too high, too low, or teeth too long.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "tooth-removal",
+    "title": "Tooth Removal",
+    "icon": "healthicons:odontology",
+    "shortDesc": "Safe and painless tooth extractions including wisdom tooth removal under local or sedation anesthesia.",
+    "category": "dental-services"
+  },
+  {
+    "id": "dentures",
+    "title": "Dentures",
+    "image": "img/Icons/Dentures.svg",
+    "shortDesc": "Custom-made complete and partial dentures designed for maximum comfort, stability, and a natural appearance.",
+    "category": "dental-services"
+  },
+  {
+    "id": "dental-fillings",
+    "title": "Dental Fillings",
+    "image": "img/Icons/DentalFillings.svg",
+    "shortDesc": "Durable and aesthetic tooth-colored composite fillings to restore cavities and strengthen damaged teeth seamlessly.",
+    "category": "dental-services"
+  },
+  {
+    "id": "pediatric-dentistry",
+    "title": "Early Orthodontic Treatment",
+    "icon": "mdi:baby-face-outline",
+    "shortDesc": "Gentle and fun dental care for children including fluoride treatments, sealants, and early orthodontic assessments.",
+    "category": "dental-services"
+  },
+  {
+    "id": "cardiac-diabetic",
+    "title": "Cardiac and Diabetic Dental Care",
+    "image": "img/Icons/CardiacAndDiabeticDentalCare.svg",
+    "shortDesc": "Specialized dental management for patients with heart conditions or diabetes, ensuring safe and effective treatments.",
+    "category": "dental-services"
+  },
+  {
+    "id": "pregnancy-care",
+    "title": "Pregnancy Dental Care",
+    "icon": "mdi:human-pregnant",
+    "shortDesc": "Safe and personalized oral health care for expectant mothers to maintain healthy gums and teeth during pregnancy.",
+    "category": "dental-services"
+  },
+  {
+    "id": "laser-dentistry",
+    "title": "Laser Dentistry",
+    "image": "img/Icons/LaserDentistry.svg",
+    "shortDesc": "Minimally invasive laser treatments for gum reshaping, cavity treatment, and soft tissue procedures with faster healing.",
+    "category": "dental-services"
+  },
+  {
+    "id": "dental-bleaching",
+    "title": "Dental Bleaching",
+    "image": "img/Icons/DentalBleaching.svg",
+    "shortDesc": "Clinical-grade bleaching solutions that lighten stained and discolored teeth by multiple shades safely.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "dental-jewellery",
+    "title": "Dental Jewellery",
+    "image": "img/Icons/DentalJewellery.svg",
+    "shortDesc": "Add a touch of sparkle to your smile with safe, painless dental crystals and gems bonded to your tooth surface.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "dental-veneers",
+    "title": "Dental Veneers",
+    "icon": "mdi:tooth-outline",
+    "shortDesc": "Thin, custom-made porcelain shells bonded to the front of teeth to correct shape, color, and minor alignment issues.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "diastema-closure",
+    "title": "Diastema Closure",
+    "image": "img/Icons/DiastemaClosure.svg",
+    "shortDesc": "Professional treatment to close gaps between teeth using bonding, veneers, or orthodontics for a unified smile.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "gum-depigmentation",
+    "title": "Gum Depigmentation",
+    "icon": "healthicons:mouth-outline",
+    "shortDesc": "Advanced laser treatment to remove dark spots or pigmentation from gums, restoring a healthy pink appearance.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "orthodontic-care",
+    "title": "Aesthetic Orthodontic Services",
+    "image": "img/Icons/OrthodonticBraces.svg",
+    "shortDesc": "Comprehensive orthodontic solutions including clear aligners and modern braces for aesthetic teeth straightening.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "smile-designing",
+    "title": "Retainers & Smile Maintenance",
+    "icon": "mdi:emoticon-happy-outline",
+    "shortDesc": "Complete smile makeovers using digital planning, veneers, and precision cosmetic techniques for a Hollywood smile.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "tooth-coloured-restoration",
+    "title": "Tooth Coloured Restorations",
+    "icon": "mdi:tooth-outline",
+    "shortDesc": "Natural-looking ceramic and composite restorations that blend perfectly with your existing teeth for a flawless look.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "zirconia-crowns",
+    "title": "Zirconia Crowns",
+    "image": "img/Icons/ZirconiaCrowns.svg",
+    "shortDesc": "Ultra-strong, metal-free zirconia crowns that offer superior strength and a natural, translucent appearance.",
+    "category": "cosmetic"
+  },
+  {
+    "id": "implants-dentistry",
+    "title": "Implants Dentistry",
+    "image": "img/Icons/implants-teeth-svgrepo-com.svg",
+    "shortDesc": "Replacement tooth roots made of biocompatible titanium. They provide a strong foundation for fixed teeth, prevent bone loss, and maintain natural facial shape and density.",
+    "category": "implants"
+  },
+  {
+    "id": "infection-control",
+    "title": "Infection Control",
+    "image": "img/Icons/InfectionControl.svg",
+    "shortDesc": "We follow 4-stage sterilization: scrubbing, ultrasonic cleaning, autoclaving in disposable wraps, and UV storage. Strict hygiene protocols ensure a 100% safe environment.",
+    "category": "infection-control"
+  }
+]

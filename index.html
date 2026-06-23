@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Batra's Dentistree | Premium Dental Care in Vadodara</title>
+  <meta name="description"
+    content="Dr. Batra's Dentistree offers world-class dental implants, orthodontic braces, root canal, cosmetic dentistry, and smile designing in Vadodara. Book your appointment today.">
+  <meta name="keywords"
+    content="dentist vadodara, dental implants, root canal, braces, cosmetic dentistry, smile designing, teeth whitening">
+  <link rel="canonical" href="https://drbatrasdentistree.com/">
+
+  <!-- Preload Critical Resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preload" as="font" href="https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4G-EiAou6Y.woff2" type="font/woff2" crossorigin>
+  <link fetchpriority="high" rel="preload" as="image" href="img/DR_BatraDentistreeLogo.webp" type="image/webp">
+  <link fetchpriority="high" rel="preload" as="image" href="img/Certi1.webp" type="image/webp">
+  <link fetchpriority="high" rel="preload" as="image" href="img/Certi2.webp" type="image/webp">
+  <link fetchpriority="high" rel="preload" as="image" href="img/clinic-photo.webp" type="image/webp">
+
+  <!-- Styles -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  <link rel="stylesheet" href="css/style.css?v=1.1">
+  <link rel="stylesheet" href="css/responsive.css?v=1.1">
+
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+      #preloader {
+        display: none;
+      }
+
+      .custom-cursor {
+        display: none;
+      }
+    </style>
+  </noscript>
+
+  <style id="critical-above-fold-css">
+    :root {
+      --primary-blue: #056ba3;
+      --primary-green: #24b14b;
+      --primary-gradient: linear-gradient(135deg, #bbd700 0%, #24b14b 100%);
+      --bg-white: #ffffff;
+      --bg-soft: #f4f9fc;
+      --text-dark: #2d3748;
+      --text-muted: #718096;
+      --text-white: #ffffff;
+      --radius-lg: 24px;
+      --brand-height: 72px;
+      --nav-height: max(65px, calc(var(--brand-height) + 16px));
+      --spacer-section: clamp(80px, 10vw, 120px)
+    }
+
+    #mainNavbar {
+      min-height: 130px
+    }
+
+    @media (max-width:991px) {
+      #mainNavbar {
+        min-height: 72px
+      }
+    }
+
+    body {
+      font-family: Inter, "Segoe UI", sans-serif;
+      color: var(--text-dark);
+      background-color: var(--bg-white);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased
+    }
+
+    body.loading {
+      overflow: hidden
+    }
+
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--bg-white);
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px
+    }
+
+    .loader-content {
+      text-align: center
+    }
+
+    .preloader-spinner {
+      width: 50px;
+      height: 50px;
+      border: 3px solid rgba(5, 107, 163, .1);
+      border-top-color: var(--primary-blue);
+      border-radius: 50%;
+      animation: .8s linear infinite spin;
+      margin: 0 auto 16px
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg)
+      }
+    }
+
+    .loader-text {
+      font-family: Outfit, sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--primary-blue)
+    }
+
+    .custom-cursor {
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--primary-blue);
+      border-radius: 50%;
+      position: fixed;
+      pointer-events: none;
+      z-index: 99998;
+      transition: transform .15s, opacity .3s;
+      opacity: 0;
+      mix-blend-mode: difference
+    }
+
+    .custom-cursor.active {
+      opacity: 1
+    }
+
+    .custom-cursor.hover {
+      transform: scale(2);
+      background: rgba(5, 107, 163, .1)
+    }
+
+    @media (pointer:coarse) {
+      .custom-cursor {
+        display: none !important
+      }
+    }
+
+    .split-hero-section{
+  background: linear-gradient(#00000067,#00000067), url('img/BannerBackHoem.webp') center/cover no-repeat;
+}
+
+.heroSwiper {
+  width: 100%;
+}
+
+.heroSwiper .swiper-slide {
+  min-height: calc(100vh - 145.5px);
+  height: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 80px 0;
+  z-index: 1;
+}
+
+.split-hero-text {
+  max-width: 600px;
+}
+
+.split-hero-text .hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--bg-white);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  margin-bottom: 24px;
+}
+
+.split-hero-text h1, .split-hero-text h2 {
+  color: var(--text-dark);
+  font-weight: 800;
+  margin-bottom: 20px;
+  line-height: 1.15;
+}
+
+.split-hero-text h1 span, .split-hero-text h2 span {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.swiper-slide h1,.swiper-slide .h1{
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+} 
+
+.split-hero-text p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-white);
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.split-hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.split-hero-image-clip {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+
+.split-hero-image-clip img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+  .heroSwiper .swiper-slide .container>.row{
+    gap: 40px 40px;
+  }
+  .heroSwiper .swiper-slide {
+    padding: 100px 0 60px;
+  }
+  .split-hero-text {
+    margin: 0 auto;
+  }
+  .hero-buttons {
+    justify-content: center;
+  }
+}
+
+/* Swiper Pagination */
+.heroSwiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: var(--primary-blue);
+  opacity: 0.3;
+  transition: var(--transition-fast);
+}
+
+.heroSwiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 30px;
+  border-radius: 5px;
+  background: var(--primary-gradient);
+}
+
+  </style>
+</head>
+
+<body class="loading">
+
+  <!-- â•â•â• PRELOADER â•â•â• -->
+  <div id="preloader">
+    <div class="loader-content">
+      <div class="preloader-spinner"></div>
+      <div class="loader-text">Dr. Batra's Dentistree</div>
+    </div>
+  </div>
+
+  <!-- â•â•â• CUSTOM CURSOR â•â•â• -->
+  <div class="custom-cursor"></div>
+
+  <!-- â•â•â• NAVBAR (Injected by critical.js) â•â•â• -->
+  <header id="mainNavbar"></header>
+
+  <!-- <li><a class="dropdown-item" href="orthodontic-braces.html">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="13"
+     height="13"
+     viewBox="0 0 32 32">
+  <path 
+    d="M6.112 11.593c.13.635 1.108.433.979-.201a3.625 3.625 0 0 1 .395-2.499c.319-.563-.552-1.057-.87-.492a4.62 4.62 0 0 0-.504 3.192zM8.282 7.782c.101 0 .202-.03.29-.093a3.78 3.78 0 0 1 .518-.311.5.5 0 0 0-.444-.897 4.752 4.752 0 0 0-.655.393.5.5 0 0 0 .291.908z" fill="currentColor" opacity="1" data-original="currentColor" class=""></path><path d="M27.699 12.514c.772-2.639-.093-5.389-2.297-7.101-2.332-1.811-5.416-1.909-7.858-.254-.435.294-.871.607-1.311.923L16 6.249c-.512-.367-1.023-.736-1.545-1.09-2.443-1.655-5.527-1.556-7.858.254-2.203 1.712-3.067 4.462-2.296 7.101A1.5 1.5 0 0 0 4.5 15.5h.832l3.805 10.674c.918 2.576 4.729 2.342 5.336-.314l1.48-6.879 1.575 6.882c.609 2.658 4.424 2.873 5.335.312l3.805-10.674h.832a1.5 1.5 0 0 0 .199-2.987zM7.21 6.205c1.982-1.54 4.606-1.625 6.685-.216 2.497 1.693 4.913 3.836 8.056 4.081a.5.5 0 0 0 .073-.999c-1.888-.137-3.558-1.11-5.155-2.212a60.24 60.24 0 0 1 1.236-.871c2.078-1.408 4.702-1.323 6.685.216 1.549 1.203 2.843 3.484 1.881 6.289H21V10.99a.5.5 0 0 0-.5-.501h-9a.5.5 0 0 0-.5.501v1.503H5.329c-.961-2.804.332-5.085 1.881-6.288zM20 13.496h-1v-1.002a.5.5 0 0 0-.5-.501h-1.531a.5.5 0 0 0-.5.501v1.002h-.938v-1.002a.5.5 0 0 0-.5-.501H13.5a.5.5 0 0 0-.5.501v1.002h-1v-2.003h8zm-2-.501v2.003h-.531v-2.003zm-3.469 0v2.003H14v-2.003zM12 14.497h1v1.002a.5.5 0 0 0 .5.501h1.531a.5.5 0 0 0 .5-.501v-1.002h.938v1.002a.5.5 0 0 0 .5.501H18.5a.5.5 0 0 0 .5-.501v-1.001h1v2.003h-8zm-8-.5c0-.276.224-.501.5-.501H11v1.002H4.5a.502.502 0 0 1-.5-.501zm17.922 11.84c-.331.927-1.146 1.216-1.787 1.179-.646-.038-1.414-.42-1.633-1.378l-1.575-6.882a.936.936 0 0 0-.927-.74.935.935 0 0 0-.927.741l-1.575 6.878c-.221.964-.989 1.347-1.634 1.385-.641.046-1.454-.252-1.786-1.183L6.393 15.499H11v1.503a.5.5 0 0 0 .5.501h9a.5.5 0 0 0 .5-.501v-1.503h4.607zm5.578-11.34H21v-1.002h6.5a.501.501 0 0 1 0 1.002z"
+    fill="currentColor"/>
+</svg> Braces and Aligners
+                  </a></li> -->
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       HERO SECTION - Split Layout with Floating Elements
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section class="split-hero-section" id="hero">
+    <div class="swiper heroSwiper">
+      <div class="swiper-wrapper">
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <!-- Text Column -->
+              <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                <div class="split-hero-text gsap-fade-up">
+                  <div class="hero-tag">
+                    <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+                    Dr. Batra's Dentistree
+                  </div>
+                  <h1 class="gsap-text-reveal">
+                    Your Smile, Our <span>Passion</span>
+                  </h1>
+                  <p>Experience world-class dental care delivered with warmth and precision. From routine check-ups to advanced implant surgeries, we make every visit comfortable and every result exceptional.</p>
+                  <div class="hero-buttons">
+                    <a href="#contact" class="btn-gradient text-black">
+                      <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+                      Book Appointment
+                    </a>
+                    <a href="#services" class="btn-outline-white">
+                      <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+                      Our Treatments
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Image Column -->
+              <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="split-hero-image-wrapper gsap-fade-up">
+                  <div class="split-hero-image-clip">
+                    <img src="img/clinic-photo.webp" alt="Clinic Interior" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                <div class="split-hero-text gsap-fade-up">
+                  <div class="hero-tag">
+                    <iconify-icon icon="ph:sparkle-bold"></iconify-icon>
+                    Trusted Invisalign® Aligners Provider
+                  </div>
+                  <h2 class="gsap-text-reveal h1">
+                    Advanced <span>Invisalign®</span> Clear Aligners
+                  </h2>
+                  <p>
+                    We provide genuine Invisalign® clear aligner solutions designed for teens and adults seeking a comfortable and nearly invisible way to straighten their teeth. Achieve a confident smile with customized aligners powered by globally trusted Invisalign® technology.
+                  </p>
+                  <div class="hero-buttons">
+                    <a href="#contact" class="btn-gradient text-black">
+                      <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+                      Book Consultation
+                    </a>
+                    <a href="orthodontic-braces.html" class="btn-outline-white">
+                      <iconify-icon icon="ph:smiley-bold"></iconify-icon>
+                      Explore Aligners
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="split-hero-image-wrapper gsap-fade-up">
+                  <div class="split-hero-image-clip">
+                    <img src="img/Invisalign_Highlight.webp" alt="Invisalign Aligners" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                <div class="split-hero-text gsap-fade-up">
+                  <div class="hero-tag">
+                    <iconify-icon icon="ph:heart-bold"></iconify-icon>
+                    Compassionate Care
+                  </div>
+                  <h2 class="gsap-text-reveal h1">
+                    Advanced Technology, <span>Gentle Care</span>
+                  </h2>
+                  <p>We utilize state-of-the-art technology to ensure precise diagnoses and minimally invasive treatments. Your comfort and well-being are our top priorities.</p>
+                  <div class="hero-buttons">
+                    <a href="#contact" class="btn-gradient text-black">
+                      <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+                      Book Appointment
+                    </a>
+                    <a href="#services" class="btn-outline-white">
+                      <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+                      Our Treatments
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="split-hero-image-wrapper gsap-fade-up">
+                  <div class="split-hero-image-clip">
+                    <img src="img/PatientCare.webp" alt="Patient Care" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <!-- <div class="swiper-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                <div class="split-hero-text gsap-fade-up">
+                  <div class="hero-tag">
+                    <iconify-icon icon="ph:shield-check-bold"></iconify-icon>
+                    Expertise You Can Trust
+                  </div>
+                  <h2 class="gsap-text-reveal h1">
+                    Transforming Smiles, <span>Changing Lives</span>
+                  </h2>
+                  <p>From flawless dental implants to stunning smile makeovers, our specialists are dedicated to restoring your confidence with long-lasting results.</p>
+                  <div class="hero-buttons">
+                    <a href="#contact" class="btn-gradient">
+                      <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+                      Book Appointment
+                    </a>
+                    <a href="#services" class="btn-outline-white">
+                      <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+                      Our Treatments
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="split-hero-image-wrapper gsap-fade-up">
+                  <div class="split-hero-image-clip">
+                    <img src="img/ReplacingToothRoots_DentalImplant.webp" alt="Dental Implants" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Slide 5 -->
+        <!-- <div class="swiper-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                <div class="split-hero-text gsap-fade-up">
+                  <div class="hero-tag">
+                    <iconify-icon icon="ph:first-aid-kit-bold"></iconify-icon>
+                    100% Sterilization
+                  </div>
+                  <h2 class="gsap-text-reveal h1">
+                    Uncompromising <span>Safety Standards</span>
+                  </h2>
+                  <p>We adhere to the strictest international sterilization protocols. Your safety is guaranteed at every step of your dental journey with us.</p>
+                  <div class="hero-buttons">
+                    <a href="#contact" class="btn-gradient">
+                      <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+                      Book Appointment
+                    </a>
+                    <a href="#services" class="btn-outline-white">
+                      <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+                      Our Treatments
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="split-hero-image-wrapper gsap-fade-up">
+                  <div class="split-hero-image-clip">
+                    <img src="img/SterileInstruments.webp" alt="Sterile Instruments" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Slide 6 -->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                <div class="split-hero-text gsap-fade-up">
+                  <div class="hero-tag">
+                    <iconify-icon icon="heroicons:sparkles"></iconify-icon> MULTISPECIALITY DENTAL HUB
+                  </div>
+                  <h2 class="gsap-text-reveal h1">
+                    Complete Family Dental Care <span>Under One Roof</span>
+                  </h2>
+                  <p>Your journey to optimal oral health begins here. From advanced preventative braces to life-changing permanent implants, our family-focused clinic delivers world-class care built for lasting, confident smiles.</p>
+                  <div class="hero-buttons">
+                    <a href="#contact" class="btn-gradient text-black">
+                      <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+                      Book Appointment
+                    </a>
+                    <a href="#services" class="btn-outline-white">
+                      <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+                      Our Treatments
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="split-hero-image-wrapper gsap-fade-up">
+                  <div class="split-hero-image-clip">
+                    <img src="img/dr-batras-dentistree-clinic-facade.webp" alt="Complete Family Dental Care Under One Roof" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 7 -->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                <div class="split-hero-text gsap-fade-up">
+                  <div class="hero-tag">
+                    <iconify-icon icon="hugeicons:kid"></iconify-icon> KIDS-FRIENDLY ENVIRONMENT
+                  </div>
+                  <h2 class="gsap-text-reveal h1">
+                    Painless Pediatric Care <span>with a Gentle Touch</span>
+                  </h2>
+                  <p>We turn dental visits into a completely fun, stress-free adventure for your little ones! Our specialized pediatric team focuses on gentle, preventative care to keep growing smiles bright and healthy.</p>
+                  <div class="hero-buttons">
+                    <a href="#contact" class="btn-gradient text-black">
+                      <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+                      Book Appointment
+                    </a>
+                    <a href="./orthodontic-braces.html" class="btn-outline-white">
+                      <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+                      Braces & Aligners
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="split-hero-image-wrapper gsap-fade-up">
+                  <div class="split-hero-image-clip">
+                    <img src="img/pediatric-dentistry-child-patient.webp" alt="Pediatric Dentistry" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 8 -->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 order-2 order-lg-1" >
+                <div class="split-hero-text gsap-fade-up">
+                  <div class="hero-tag">
+                    <iconify-icon icon="icon-park-outline:hospital-bed"></iconify-icon> PREMIUM PATIENT LOBBY
+                  </div>
+                  <h2 class="gsap-text-reveal h1">
+                    A Soothing Space Built <span>Around Your Comfort</span>
+                  </h2>
+                  <p>Say goodbye to dental anxiety. Step into an ultra-modern, serene environment deliberately engineered for ultimate physical comfort, premium patient relaxation, and strict global hygiene protocols.</p>
+                  <div class="hero-buttons">
+                    <a href="./gallery.html" class="btn-gradient text-black">
+                      <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+                      View Gallery
+                    </a>
+                    <a href="./about-clinic.html" class="btn-outline-white">
+                      <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+                      About Our Clinic
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="split-hero-image-wrapper gsap-fade-up">
+                  <div class="split-hero-image-clip">
+                    <img src="img/digital-intraoral-camera-screening.webp" alt="Digital Intraoral Camera Screening" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 9 -->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                <div class="split-hero-text gsap-fade-up">
+                  <div class="hero-tag">
+                    <iconify-icon icon="flowbite:microscope-outline"></iconify-icon>  NEXT-GEN DIGITAL DIAGNOSTICS
+                  </div>
+                  <h2 class="gsap-text-reveal h1">
+                    High-Definition Precision, <span>Predictable Results</span>
+                  </h2>
+                  <p>Take the guesswork out of your dental treatments. Our state-of-the-art live digital intraoral cameras give you an instant, crystal-clear view of your teeth for seamless, ultra-accurate smile modifications.</p>
+                  <div class="hero-buttons">
+                    <a href="#contact" class="btn-gradient text-black">
+                      <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+                      Book a Consultation
+                    </a>
+                    <a href="./dental-veneers.html" class="btn-outline-white">
+                      <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+                      Cosmetic Care
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="split-hero-image-wrapper gsap-fade-up">
+                  <div class="split-hero-image-clip">
+                    <img src="img/dr-samir-batra-orthodontist-portrait.webp" alt="Dr. Samir Batra Orthodontist Portrait" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       INFO STRIP - Blue Contact Bar
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section class="info-strip">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-lg-4 col-md-6">
+          <div class="info-strip-item">
+            <iconify-icon icon="ph:phone-call-bold"></iconify-icon>
+            <div>
+              <span class="info-label">Call Us Now</span>
+              <a href="tel:+919879625787" class="info-value d-block text-white">+91 98796 25787</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="info-strip-item">
+            <iconify-icon icon="ph:map-pin-bold"></iconify-icon>
+            <div>
+              <span class="info-label">Visit Us</span>
+              <a href="https://maps.app.goo.gl/PkRdWAydQGrwxQ2y6" target="_blank" class="info-value d-block text-white"
+                style="text-decoration: none;">
+                FF- 145, S9 Square, Sama-Savli Road, Vadodara
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 text-lg-end">
+          <a href="tel:+919825007975" class="btn-emergency">
+            <iconify-icon icon="ph:first-aid-kit-bold"></iconify-icon>
+            Emergency - 24×7 Available
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       ABOUT SECTION - Journey to Healthier Smile
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section class="about-section spacer-y" id="about">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-6">
+          <div class="position-relative gsap-fade-up">
+            <img src="img/clinic-photo.webp" alt="Clinic Interior" style="border-radius:var(--radius-lg);">
+            <div class="position-absolute bottom-0 end-0 translate-middle-y me-n3 flotingExper"
+              style="margin-right:-16px;margin-bottom:-16px;">
+              <div class="flotingExperBox">
+                <span class="flotHead">20+</span>
+                <span class="flotText">Years Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="gsap-fade-up">
+            <span class="section-subtitle">
+              <iconify-icon icon="ph:heart-bold"></iconify-icon>
+              About Our Clinic
+            </span>
+            <h2 class="section-title gsap-text-reveal">Your Journey to a Healthier Smile Begins Here</h2>
+            <p>At Dr. Batra's Dentistree, we combine clinical excellence with genuine compassion. Our state-of-the-art
+              facility is designed to make every visit comfortable, efficient, and rewarding.</p>
+            <p>With advanced technology and a highly skilled team, we deliver personalized treatment plans that address
+              your unique dental needs-from preventive care to complex full mouth rehabilitations.</p>
+
+            <div class="about-features">
+              <div class="about-feature-item gsap-fade-up">
+                <iconify-icon icon="ph:shield-check-bold"></iconify-icon>
+                <span>Experienced Team</span>
+              </div>
+              <div class="about-feature-item gsap-fade-up">
+                <iconify-icon icon="ph:first-aid-kit-bold"></iconify-icon>
+                <span>Comprehensive Treatments</span>
+              </div>
+              <div class="about-feature-item gsap-fade-up">
+                <iconify-icon icon="ph:cpu-bold"></iconify-icon>
+                <span>Latest Technology</span>
+              </div>
+              <div class="about-feature-item gsap-fade-up">
+                <iconify-icon icon="ph:siren-bold"></iconify-icon>
+                <span>Emergency Treatments</span>
+              </div>
+            </div>
+
+            <div class="mt-4 gsap-fade-up">
+              <a href="#services" class="btn-gradient">
+                <iconify-icon icon="ph:arrow-right-bold"></iconify-icon>
+                Explore Our Treatments
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+  <section class="accreditation-section">
+    <div class="container">
+      <div class="text-center mb-5 reveal-item">
+        <h2 class="section-title text-white">Our Accreditation</h2>
+      </div>
+      <div class="row justify-content-center gap-3">
+        <div class="col-auto">
+          <div class="certificate-box">
+            <img data-src="img/Certi1.webp" class="img-fluid lazyload" loading="lazy" alt="1st IN GUJARAT (in 4-8 chairs category)" title="1st IN GUJARAT (in 4-8 chairs category)" src="img/Certi1.webp">
+				    <h3 class="cerificateTitle">1st IN GUJARAT <small>(in 4-8 chairs category)</small></h3>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="certificate-box">
+            <img data-src="img/Certi2.webp" class="img-fluid lazyload" loading="lazy" alt="ISO 9001:2015 Certified Dental Clinic" title="ISO 9001:2015 Certified Dental Clinic" src="img/Certi2.webp">
+				    <h3 class="cerificateTitle">ISO 9001:2015 <small>Certified Dental Clinic</small></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       SERVICES SECTION - Isotope Filterable Grid
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section class="services-section spacer-y" id="services" style="background: var(--bg-soft);">
+    <div class="container">
+      <div class="text-center mb-5 reveal-item">
+        <span class="section-subtitle">
+          <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+          Our Treatments
+        </span>
+        <h2 class="section-title">High Quality Treatments For You</h2>
+        <p class="section-desc">We are committed to providing exceptional dental care using the latest technology and
+          evidence-based practices.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-bar reveal-item" id="filterBtnList">
+        <button class="filter-btn active" data-filter="*">All Treatment</button>
+        <button class="filter-btn" data-filter=".dental-services">General Dental</button>
+        <button class="filter-btn" data-filter=".cosmetic">Cosmetic Care</button>
+        <button class="filter-btn" data-filter=".implants">Implant Dentistry</button>
+        <button class="filter-btn" data-filter=".infection-control">Infection Control</button>
+      </div>
+
+      <!-- Services Grid (Populated by services.js) - DESKTOP/TABLET -->
+      <div class="row grid" id="servicesGrid"></div>
+
+      <!-- Services Swiper (Populated by services.js) - MOBILE ONLY -->
+      <div class="services-mobile-swiper-wrap" id="servicesMobileWrap">
+        <div class="swiper servicesMobileSwiper">
+          <div class="swiper-wrapper" id="servicesMobileWrapper"></div>
+          <div class="swiper-pagination services-mobile-pagination"></div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4 gsap-fade-up">
+        <a href="#contact" class="btn-gradient">
+          <iconify-icon icon="ph:chat-circle-text-bold"></iconify-icon>
+          Enquire About a Treatment
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       WHY CHOOSE US - Stats Section
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section class="why-choose-section spacer-y">
+    <div class="container">
+      <div class="text-center mb-5 reveal-item">
+        <span class="section-subtitle">
+          <iconify-icon icon="ph:trophy-bold"></iconify-icon>
+          Why Choose Us
+        </span>
+        <h2 class="section-title">Trusted by Thousands of Patients</h2>
+        <p class="section-desc">We believe in using the latest technology and techniques to ensure the best outcomes for
+          our patients.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-card reveal-item">
+            <div class="stat-icon">
+              <iconify-icon icon="ph:users-three-bold"></iconify-icon>
+            </div>
+            <h3><span class="stat-number" data-count="50000" data-suffix="+">0</span></h3>
+            <p>Happy Patients</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-card reveal-item">
+            <div class="stat-icon">
+              <iconify-icon icon="ph:tooth-bold"></iconify-icon>
+            </div>
+            <h3><span class="stat-number" data-count="20" data-suffix="+">0</span></h3>
+            <p>Years Experience</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-card reveal-item">
+            <div class="stat-icon">
+              <iconify-icon icon="ph:star-bold"></iconify-icon>
+            </div>
+            <h3><span class="stat-number" data-count="5" data-suffix="/5">0</span></h3>
+            <p>Google Rating</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-card reveal-item">
+            <div class="stat-icon">
+              <iconify-icon icon="ph:certificate-bold"></iconify-icon>
+            </div>
+            <h3><span class="stat-number" data-count="16" data-suffix="+">0</span></h3>
+            <p>Expert Procedures</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       DIAGNOSIS CENTRAL DIAGRAM
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section class="diagnosis-section spacer-y" style="background: var(--bg-soft);">
+    <div class="container">
+      <div class="text-center mb-5 gsap-fade-up">
+        <span class="section-subtitle">
+          <iconify-icon icon="ph:magnifying-glass-bold"></iconify-icon>
+          Our Approach
+        </span>
+        <h2 class="section-title gsap-text-reveal">Diagnosis of Dental Diseases</h2>
+        <p class="section-desc">Our comprehensive, patient-centered approach ensures accurate diagnosis, effective
+          treatment, and lasting prevention.</p>
+      </div>
+
+      <!-- Desktop: Radial Layout / Mobile: Stacked -->
+      <div class="diagnosis-wrapper">
+        <!-- Central Tooth Image -->
+        <div class="diagnosis-center gsap-fade-up">
+          <img src="img/tooth.webp" alt="Dental Diagnosis">
+        </div>
+
+        <!-- Node 1: Diagnose -->
+        <div class="diagnosis-item diag-pos-1">
+          <div class="diag-icon">
+            <iconify-icon icon="ph:magnifying-glass-bold"></iconify-icon>
+          </div>
+          <h6>Diagnose</h6>
+          <p>Thorough clinical and digital examination to identify dental issues early.</p>
+        </div>
+
+        <!-- Node 2: Educate -->
+        <div class="diagnosis-item diag-pos-2">
+          <div class="diag-icon">
+            <iconify-icon icon="ph:chalkboard-teacher-bold"></iconify-icon>
+          </div>
+          <h6>Educate the Patient</h6>
+          <p>We explain findings clearly so you understand your oral health fully.</p>
+        </div>
+
+        <!-- Node 3: Treatment Plan -->
+        <div class="diagnosis-item diag-pos-3">
+          <div class="diag-icon">
+            <iconify-icon icon="ph:clipboard-text-bold"></iconify-icon>
+          </div>
+          <h6>Custom Treatment Plan</h6>
+          <p>Personalized treatment strategies designed for your unique needs.</p>
+        </div>
+
+        <!-- Node 4: Treat -->
+        <div class="diagnosis-item diag-pos-4">
+          <div class="diag-icon">
+            <iconify-icon icon="ph:first-aid-kit-bold"></iconify-icon>
+          </div>
+          <h6>Treat</h6>
+          <p>Advanced, minimally invasive procedures for optimal results.</p>
+        </div>
+
+        <!-- Node 5: Prevent -->
+        <div class="diagnosis-item diag-pos-5">
+          <div class="diag-icon">
+            <iconify-icon icon="ph:shield-check-bold"></iconify-icon>
+          </div>
+          <h6>Prevent</h6>
+          <p>Proactive measures to maintain your dental health long-term.</p>
+        </div>
+
+        <!-- Node 6: Follow Up -->
+        <div class="diagnosis-item diag-pos-6">
+          <div class="diag-icon">
+            <iconify-icon icon="ph:calendar-check-bold"></iconify-icon>
+          </div>
+          <h6>Follow-Up Care</h6>
+          <p>Regular monitoring ensures lasting results and continued wellness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       PROCESS STEPS
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section class="process-section spacer-y">
+    <div class="container">
+      <div class="text-center mb-5 gsap-fade-up">
+        <span class="section-subtitle">
+          <iconify-icon icon="ph:steps-bold"></iconify-icon>
+          How It Works
+        </span>
+        <h2 class="section-title gsap-text-reveal">Easy Steps to Your Perfect Smile</h2>
+      </div>
+
+      <div class="row g-md-4 g-3 position-relative">
+        <div class="process-connector d-none d-md-block"></div>
+
+        <div class="col-md-3 col-6">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <h5>Book Online</h5>
+            <p>Schedule your visit via WhatsApp or call our clinic directly.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <h5>Consultation</h5>
+            <p>Meet our expert dentists for a thorough dental check-up.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <h5>Treatment Plan</h5>
+            <p>Receive a personalized treatment plan tailored to your needs.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="process-step">
+            <div class="step-number">4</div>
+            <h5>Smile Bright</h5>
+            <p>Walk out with a confident, healthy, and beautiful smile!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       TESTIMONIALS
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section class="testimonials-section spacer-y" style="background: var(--bg-soft);">
+    <div class="container">
+      <div class="text-center mb-5 gsap-fade-up">
+        <span class="section-subtitle">
+          <iconify-icon icon="ph:chat-circle-text-bold"></iconify-icon>
+          Patient Reviews
+        </span>
+        <h2 class="section-title gsap-text-reveal">What Our Patients Say</h2>
+        <p class="section-desc">Real reviews from real patients who trust us with their smiles.</p>
+      </div>
+
+      <div class="swiper testimonialSwiper gsap-fade-up">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon">
+                <iconify-icon icon="ph:quotes-bold"></iconify-icon>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p class="testimonial-text">"Exceptional dental care! Dr. Batra and team made my root canal completely
+                painless. The clinic is spotless and the staff is incredibly warm. Highly recommend to everyone."</p>
+              <div class="client-info">
+                <div class="client-avatar">RP</div>
+                <div>
+                  <div class="client-name">Rajesh Patel</div>
+                  <div class="client-location">Vadodara</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon">
+                <iconify-icon icon="ph:quotes-bold"></iconify-icon>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p class="testimonial-text">"Got my smile designed here and the results are beyond amazing. The attention
+                to detail and professionalism is world-class. Best dental clinic in Vadodara without a doubt!"</p>
+              <div class="client-info">
+                <div class="client-avatar">PS</div>
+                <div>
+                  <div class="client-name">Priya Shah</div>
+                  <div class="client-location">Vadodara</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon">
+                <iconify-icon icon="ph:quotes-bold"></iconify-icon>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p class="testimonial-text">"My kids love visiting Dr. Batra's Dentistree! The child-friendly approach and
+                gentle care have made dental visits something they actually look forward to. Amazing team!"</p>
+              <div class="client-info">
+                <div class="client-avatar">AM</div>
+                <div>
+                  <div class="client-name">Anita Mehta</div>
+                  <div class="client-location">Savli</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon">
+                <iconify-icon icon="ph:quotes-bold"></iconify-icon>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p class="testimonial-text">"Had dental implants done here after researching many clinics. Dr. Batra's
+                expertise is unmatched. The implants feel completely natural. Worth every penny. Thank you, team!"</p>
+              <div class="client-info">
+                <div class="client-avatar">VD</div>
+                <div>
+                  <div class="client-name">Vikram Desai</div>
+                  <div class="client-location">Vadodara</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination mt-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       CONTACT / WHATSAPP FORM SECTION
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <section class="contact-section spacer-y" id="contact">
+    <div class="container">
+      <div class="text-center mb-5 gsap-fade-up">
+        <span class="section-subtitle">
+          <iconify-icon icon="ph:envelope-simple-bold"></iconify-icon>
+          Get In Touch
+        </span>
+        <h2 class="section-title gsap-text-reveal">Book Your Appointment</h2>
+        <p class="section-desc">Fill the form below and we'll connect with you instantly on WhatsApp to confirm your
+          appointment.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Form -->
+        <div class="col-lg-7 gsap-fade-up">
+          <div class="contact-form-card">
+            <form id="whatsappForm" class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="formName" class="form-label fw-semibold" style="font-size:0.85rem;">Full Name *</label>
+                  <input type="text" class="form-control" id="formName" name="name" placeholder="Enter your full name"
+                    required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="formPhone" class="form-label fw-semibold" style="font-size:0.85rem;">Phone Number
+                    *</label>
+                  <input type="tel" class="form-control" id="formPhone" name="phone" placeholder="e.g. 98765 43210"
+                    required>
+                  <div class="invalid-feedback">Please enter a valid phone number.</div>
+                </div>
+                <div class="col-12">
+                  <label for="formService" class="form-label fw-semibold" style="font-size:0.85rem;">Service Interested
+                    In</label>
+                  <select class="form-select" id="formService" name="service">
+                    <option value="General Consultation" selected>General Consultation</option>
+                    <option value="Dental Implants">Dental Implants</option>
+                    <option value="Orthodontic Braces">Orthodontic Braces</option>
+                    <option value="Root Canal Treatment">Root Canal Treatment</option>
+                    <option value="Cosmetic Dentistry">Cosmetic Dentistry</option>
+                    <option value="Teeth Whitening">Teeth Whitening</option>
+                    <option value="Smile Designing">Smile Designing</option>
+                    <option value="Invisalign">Invisalign & Clear Aligners</option>
+                    <option value="Crown & Bridge">Crown & Bridge</option>
+                    <option value="Gum Surgery">Gum Surgery</option>
+                    <option value="Pediatric Dentistry">Pediatric Dentistry</option>
+                    <option value="Full Mouth Rehabilitation">Full Mouth Rehabilitation</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="formMessage" class="form-label fw-semibold" style="font-size:0.85rem;">Your
+                    Message</label>
+                  <textarea class="form-control" id="formMessage" name="message" rows="4"
+                    placeholder="Tell us about your dental concern..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-gradient w-100 justify-content-center" style="padding:16px;">
+                    <iconify-icon icon="mdi:whatsapp" style="font-size:1.3rem;"></iconify-icon>
+                    Send via WhatsApp
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Info Card -->
+        <div class="col-lg-5 gsap-fade-up">
+          <div class="contact-info-card">
+            <h4 style="color:#fff;font-family:'Outfit',sans-serif;margin-bottom:32px;">
+              <iconify-icon icon="ph:chat-circle-text-bold" class="me-2"></iconify-icon>
+              Contact Information
+            </h4>
+
+            <div class="contact-info-item">
+              <div class="info-icon">
+                <iconify-icon icon="ph:map-pin-bold"></iconify-icon>
+              </div>
+              <div>
+                <h6>Our Location</h6>
+                <p>
+                  <a href="https://maps.app.goo.gl/PkRdWAydQGrwxQ2y6" target="_blank"
+                    style="color:rgba(255,255,255,0.9); text-decoration: none;">
+                    FF- 145, S9 Square, Opp. Lotus Aura,<br>
+                    Sama-Savli Road, Vemali, Vadodara-390008
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="info-icon">
+                <iconify-icon icon="ph:phone-bold"></iconify-icon>
+              </div>
+              <div>
+                <h6>Phone Numbers</h6>
+                <p>
+                  <a href="tel:+919879625787" style="color:rgba(255,255,255,0.9);">+91 9879625787</a><br>
+                  <a href="tel:+919825007975" style="color:rgba(255,255,255,0.9);">+91 9825007975</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="info-icon">
+                <iconify-icon icon="ph:clock-bold"></iconify-icon>
+              </div>
+              <div>
+                <h6>Working Hours</h6>
+                <p>Mon - Sat: 10:00 AM - 7:30 PM<br>Sunday: By Appointment</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item mb-0">
+              <div class="info-icon">
+                <iconify-icon icon="ph:first-aid-kit-bold"></iconify-icon>
+              </div>
+              <div>
+                <h6>Emergency</h6>
+                <p>24×7 Emergency dental care available. Call us anytime.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       DOCTOR CERTIFICATIONS SECTION
+       ============================================== -->
+  <section class="certifications-section spacer-y" id="certifications">
+    <div class="container">
+      <div class="text-center mb-5 gsap-fade-up">
+        <span class="section-subtitle">
+          <iconify-icon icon="ph:certificate-bold"></iconify-icon>
+          Credentials
+        </span>
+        <h2 class="section-title gsap-text-reveal">Our Doctor's <span class="text-gradient">Certifications</span></h2>
+        <p class="section-desc">Our lead doctors hold prestigious certifications, fellowships, and memberships from
+          recognized national and international dental boards.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- Certificate 1 -->
+        <div class="col-lg-4 col-md-6 gsap-fade-up">
+          <div class="doctor-certificate-card">
+            <a href="img/Certificates/CertificateSwayam.jpg" data-fancybox="doctor-certificates"
+              data-caption="NPTEL Online Certification - Management of Medical Emergencies in Dental Practice">
+
+              <div class="cert-img-wrapper">
+                <img data-src="img/Certificates/Thumb/CertificateSwayam.webp" class="img-fluid lazyload" loading="lazy"
+                  alt="NPTEL Online Certification Certificate" src="img/Certificates/Thumb/CertificateSwayam.webp">
+
+                <div class="cert-overlay">
+                  <iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon>
+                </div>
+              </div>
+            </a>
+
+            <div class="cert-info">
+              <h5>Management of Medical Emergencies in Dental Practice</h5>
+
+              <p class="cert-meta">
+                NPTEL Online Certification • IIT Madras
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="col-lg-4 col-md-6 gsap-fade-up">
+          <div class="doctor-certificate-card">
+            <a href="img/Certificates/TCC_Certificate.jpg" data-fancybox="doctor-certificates"
+              data-caption="Tobacco Control & Cessation Training Program">
+
+              <div class="cert-img-wrapper">
+                <img data-src="img/Certificates/Thumb/TCC_Certificate.webp" class="img-fluid lazyload" loading="lazy"
+                  alt="Tobacco Control and Cessation Certificate" src="img/Certificates/Thumb/TCC_Certificate.webp">
+
+                <div class="cert-overlay">
+                  <iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon>
+                </div>
+              </div>
+            </a>
+
+            <div class="cert-info">
+              <h5>Tobacco Control & Cessation Training Program</h5>
+
+              <p class="cert-meta">
+                Indian Dental Association (IDA) • TCC Centre • 2 Credit Points
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="col-lg-4 col-md-6 gsap-fade-up">
+          <div class="doctor-certificate-card">
+            <a href="img/Certificates/KridaSportCertificate.jpg" data-fancybox="doctor-certificates"
+              data-caption="Krida Dant Suraksha Volunteer Certification Programme">
+
+              <div class="cert-img-wrapper">
+                <img data-src="img/Certificates/Thumb/KridaSportCertificate.webp" class="img-fluid lazyload"
+                  loading="lazy" alt="Sports Dentistry Volunteer Certification"
+                  src="img/Certificates/Thumb/KridaSportCertificate.webp">
+
+                <div class="cert-overlay">
+                  <iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon>
+                </div>
+              </div>
+            </a>
+
+            <div class="cert-info">
+              <h5>Krida Dant Suraksha Volunteer Certification Programme</h5>
+
+              <p class="cert-meta">
+                Indian Academy of Sports Dentistry (IASD) • Sports Dental Centre
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="col-lg-4 col-md-6 gsap-fade-up">
+          <div class="doctor-certificate-card">
+            <a href="img/Certificates/CertificateOralCancerCourse.jpg" data-fancybox="doctor-certificates"
+              data-caption="Oral Cancer Early Detection & Screening Training">
+
+              <div class="cert-img-wrapper">
+                <img data-src="img/Certificates/Thumb/CertificateOralCancerCourse.webp" class="img-fluid lazyload"
+                  loading="lazy" alt="Oral Cancer Screening Training Certificate"
+                  src="img/Certificates/Thumb/CertificateOralCancerCourse.webp">
+
+                <div class="cert-overlay">
+                  <iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon>
+                </div>
+              </div>
+            </a>
+
+            <div class="cert-info">
+              <h5>Oral Cancer Early Detection & Screening Training</h5>
+
+              <p class="cert-meta">
+                Indian Dental Association (IDA) • Karkinos Healthcare Pvt. Ltd.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="profile-videos spacer-y" style="background: var(--bg-soft);">
+    <div class="container">
+      <div class="text-center mb-5 gsap-fade-up">
+        <span class="section-subtitle">
+          <iconify-icon icon="ph:video-camera-bold"></iconify-icon>
+          Profile Videos
+        </span>
+        <h2 class="section-title gsap-text-reveal">Discover Our <span class="text-gradient">Clinic & Care</span></h2>
+        <p class="section-desc">Get a glimpse into our world-class facilities and fun approach to dental health.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Video 1: Clinic Overview -->
+        <div class="col-lg-6 gsap-fade-up">
+          <div class="service-card h-100" style="padding: 24px;">
+            <div class="ratio ratio-16x9 rounded-3 overflow-hidden mb-4">
+              <!-- Dummy YouTube Video 1 -->
+              <iframe src="https://www.youtube.com/embed/xwJMkMXGEVc?si=Tq56QYB9koznc_tu"
+                title="Clinic Overview & Achievements"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+            <h4 class="mb-3">Clinic Overview & Achievements</h4>
+            <p class="text-muted">A comprehensive look at our state-of-the-art services, advanced dental equipment, and
+              the achievements and certificates that showcase our commitment to excellence.</p>
+          </div>
+        </div>
+
+        <!-- Video 2: Smile Song -->
+        <div class="col-lg-6 gsap-fade-up">
+          <div class="service-card h-100" style="padding: 24px;">
+            <div class="ratio ratio-16x9 rounded-3 overflow-hidden mb-4">
+              <!-- Dummy YouTube Video 2 -->
+              <iframe src="https://www.youtube.com/embed/lLFyMiFvMf4?si=D6tIM0Y1sHp8adxW"
+                title="Smile Song: Daanto Ka Funda" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h4 class="mb-3">Smile Song: "Daanto Ka Funda"</h4>
+            <p class="text-muted">A fun, poetic song for kids to easily understand common dental problems and how to
+              tackle them by building healthy oral habits early on.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- â•â•â• FOOTER (Injected by script.js) â•â•â• -->
+  <footer id="footer"></footer>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+       SCRIPTS
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <!-- Libraries -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script defer src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+  <!-- GSAP -->
+
+  <!-- App Scripts -->
+  <script src="js/critical.js?v=1.1"></script>
+  <script defer src="js/lazy-loader.js?v=1.1"></script>
+  <script defer src="js/performance-optimizer.js?v=1.1"></script>
+  <script defer src="js/services.js?v=1.1"></script>
+  <script defer src="js/script.js?v=1.1"></script>
+  <script defer src="js/whatsapp-form.js?v=1.1"></script>
+
+  <script>
+    /* ========================================================
+   INDEX.JS - Page Specific Logic for Home Page
+   Dr. Batra's Dentistree
+   ======================================================== */
+    document.addEventListener("DOMContentLoaded", function () {
+      "use strict";
+
+      // Function to initialize GSAP animations specific to the Home page
+      function initIndexGSAP() {
+        if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
+
+        /* â”€â”€ Floating Hero Shapes (Slow continuous) â”€â”€ */
+        gsap.utils.toArray(".hero-shape").forEach((shape, i) => {
+          gsap.to(shape, {
+            y: `random(-20, 20)`,
+            x: `random(-15, 15)`,
+            rotation: `random(-10, 10)`,
+            duration: `random(3, 6)`,
+            repeat: -1,
+            yoyo: true,
+            ease: "sine.inOut",
+            delay: i * 0.3,
+          });
+        });
+
+        /* â”€â”€ Diagnosis items fade in â”€â”€ */
+        gsap.utils.toArray(".diagnosis-item").forEach((item, i) => {
+          gsap.from(item, {
+            scrollTrigger: { trigger: item, start: "top 90%", once: true },
+            opacity: 0,
+            scale: 0.8,
+            duration: 0.6,
+            delay: i * 0.12,
+            ease: "back.out(1.7)",
+          });
+        });
+
+        /* â”€â”€ Process Steps â”€â”€ */
+        gsap.utils.toArray(".process-step").forEach((step, i) => {
+          gsap.from(step, {
+            scrollTrigger: { trigger: step, start: "top 90%", once: true },
+            opacity: 0,
+            y: 30,
+            duration: 0.6,
+            delay: i * 0.15,
+            ease: "power2.out",
+          });
+        });
+      }
+
+      // Function to initialize Swipers specific to the Home page
+      function initIndexSwipers() {
+        if (typeof Swiper === "undefined") return;
+
+        // Hero Swiper
+        const heroSwiperEl = document.querySelector(".heroSwiper");
+        if (heroSwiperEl) {
+          new Swiper(".heroSwiper", {
+            loop: true,
+            speed: 800,
+            autoplay: { delay: 5000, disableOnInteraction: false },
+            pagination: {
+              el: ".heroSwiper .swiper-pagination",
+              clickable: true,
+            },
+            effect: "fade",
+            fadeEffect: { crossFade: true },
+          });
+        }
+
+        // Testimonials Swiper
+        const testimonialSwiperEl = document.querySelector(".testimonialSwiper");
+        if (testimonialSwiperEl) {
+          new Swiper(".testimonialSwiper", {
+            loop: true,
+            speed: 600,
+            spaceBetween: 24,
+            autoplay: { delay: 4000, disableOnInteraction: false },
+            pagination: {
+              el: ".testimonialSwiper .swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+              320: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              1200: { slidesPerView: 3 },
+            },
+          });
+        }
+      }
+
+      // Trigger index initializations after 1200ms delay to wait for preloader
+      setTimeout(() => {
+        initIndexGSAP();
+        initIndexSwipers();
+      }, 1200);
+
+    });
+
+  </script>
+</body>
+
+</html>

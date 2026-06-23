@@ -1,0 +1,450 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Dr. Batra's Dentistree - Vadodara</title>
+  <meta name="description" content="Explore our clinic gallery - state-of-the-art facilities, treatment rooms, and modern dental equipment at Dr. Batra's Dentistree, Vadodara." />
+
+  <!-- Preconnect + Preload Critical Resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preload" as="font" href="https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4G-EiAou6Y.woff2" type="font/woff2" crossorigin>
+  <link fetchpriority="high" rel="preload" as="image" href="img/DR_BatraDentistreeLogo.webp" type="image/webp">
+  <link fetchpriority="high" rel="preload" as="image" href="img/Certi1.webp" type="image/webp">
+  <link fetchpriority="high" rel="preload" as="image" href="img/Certi2.webp" type="image/webp">
+
+  <!-- Styles -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"></noscript>
+  <!-- Fancybox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="css/style.css?v=1.1" />
+  <link rel="stylesheet" href="css/responsive.css?v=1.1" />
+
+<style id="critical-above-fold-css">
+:root{--primary-blue:#056ba3;--primary-green:#24b14b;--primary-gradient:linear-gradient(135deg, #bbd700 0%, #24b14b 100%);--bg-white:#ffffff;--bg-soft:#f4f9fc;--text-dark:#2d3748;--text-muted:#718096;--text-white:#ffffff;--radius-lg:24px;--brand-height:72px;--nav-height:max(65px, calc(var(--brand-height) + 16px));--spacer-section:clamp(80px, 10vw, 120px)}#mainNavbar{min-height:130px}@media (max-width:991px){#mainNavbar{min-height:72px}}body{font-family:Inter,"Segoe UI",sans-serif;color:var(--text-dark);background-color:var(--bg-white);overflow-x:hidden;-webkit-font-smoothing:antialiased}body.loading{overflow:hidden}#preloader{position:fixed;top:0;left:0;width:100%;height:100%;background:var(--bg-white);z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px}.loader-content{text-align:center}.preloader-spinner{width:50px;height:50px;border:3px solid rgba(5,107,163,.1);border-top-color:var(--primary-blue);border-radius:50%;animation:.8s linear infinite spin;margin:0 auto 16px}@keyframes spin{to{transform:rotate(360deg)}}.loader-text{font-family:Outfit,sans-serif;font-weight:700;font-size:1.1rem;color:var(--primary-blue)}.custom-cursor{width:20px;height:20px;border:2px solid var(--primary-blue);border-radius:50%;position:fixed;pointer-events:none;z-index:99998;transition:transform .15s,opacity .3s;opacity:0;mix-blend-mode:difference}.custom-cursor.active{opacity:1}.custom-cursor.hover{transform:scale(2);background:rgba(5,107,163,.1)}@media (pointer:coarse){.custom-cursor{display:none!important}}
+</style>
+
+</head>
+<body class="loading">
+
+  <div id="preloader"><div class="loader-content"><div class="preloader-spinner"></div><p class="loader-text">Dr. Batra's Dentistree</p></div></div>
+  <div class="custom-cursor"></div>
+  <header id="mainNavbar"></header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-subtitle reveal-item">
+        <iconify-icon icon="ph:images-bold"></iconify-icon> Visual Tour
+      </span>
+      <h1 class="reveal-item">Our Gallery</h1>
+      <div class="breadcrumb-nav reveal-item">
+        <a href="index.html">Home</a>
+        <span class="separator">›</span>
+        <span>Photos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+   <section class="spacer-y">
+    <div class="container">
+      <div class="text-center mb-4">
+        <p class="section-desc reveal-item">Take a visual tour of our modern clinic, advanced equipment, and welcoming treatment areas.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="gallery-filter-bar reveal-item">
+        <button class="gallery-filter-btn active" data-filter="all">All</button>
+        <button class="gallery-filter-btn" data-filter="clinic">Clinic</button>
+        <button class="gallery-filter-btn" data-filter="treatments">Treatments</button>
+        <button class="gallery-filter-btn" data-filter="equipment">Equipment</button>
+        <button class="gallery-filter-btn" data-filter="camp">Camp</button> 
+        <button class="gallery-filter-btn" data-filter="awards">Awards</button> 
+        <button class="gallery-filter-btn" data-filter="social-events">SOCIAL EVENTS</button> 
+        <button class="gallery-filter-btn" data-filter="before-after">BEFORE AFTER</button> 
+      </div>
+
+      <!-- Masonry Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+
+        <a href="img/Gallery/31_clinic_doctors_desk.jpg" data-fancybox="gallery" data-caption="Doctors Desk" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/31_clinic_doctors_deskThumb.webp" alt="Doctors Desk" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/1_treatment_chairside.jpg" data-fancybox="gallery" data-caption="treatment chairside" class="gallery-item" data-category="treatments">
+          <img src="img/Gallery/Thumb/1_treatment_chairsideThumb.webp" alt="treatment chairside" loading="lazy" />
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/2_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="clinic patient photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/2_clinic_patient_photoThumb.webp" alt="clinic patient photo" loading="lazy" />
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/3_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="clinic patient photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/3_clinic_patient_photoThumb.webp" alt="clinic patient photo" loading="lazy" />
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/4_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="clinic patient photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/4_clinic_patient_photoThumb.webp" alt="clinic patient photo" loading="lazy" />
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/6_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="clinic patient photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/6_clinic_patient_photoThumb.webp" alt="clinic patient photo" loading="lazy" />
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/7_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="clinic patient photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/7_clinic_patient_photoThumb.webp" alt="clinic patient photo" loading="lazy" />
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/8_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="clinic patient photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/8_clinic_patient_photoThumb.webp" alt="clinic patient photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/9_equipment_opg_xray.jpeg" data-fancybox="gallery" data-caption="equipment opg xray" class="gallery-item" data-category="equipment">
+          <img src="img/Gallery/Thumb/9_equipment_opg_xrayThumb.webp" alt="equipment opg xray" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/10_clinic_presentation.jpg" data-fancybox="gallery" data-caption="clinic presentation" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/10_clinic_presentationThumb.webp" alt="clinic presentation" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/11_treatment_camp_checkup.jpg" data-fancybox="gallery" data-caption="treatment camp checkup" class="gallery-item" data-category="treatments">
+          <img src="img/Gallery/Thumb/11_treatment_camp_checkupThumb.webp" alt="treatment camp checkup" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/12_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="clinic patient photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/12_clinic_patient_photoThumb.webp" alt="clinic patient photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/13_clinic_awareness_program.jpg" data-fancybox="gallery" data-caption="clinic awareness program" class="gallery-item" data-category="camp">
+          <img src="img/Gallery/Thumb/13_clinic_awareness_programThumb.webp" alt="clinic awareness program" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/14_clinic_staff_meeting.jpg" data-fancybox="gallery" data-caption="clinic staff meeting" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/14_clinic_staff_meetingThumb.webp" alt="clinic staff meeting" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/15_treatment_camp_checkup.jpg" data-fancybox="gallery" data-caption="treatment camp checkup" class="gallery-item" data-category="treatments">
+          <img src="img/Gallery/Thumb/15_treatment_camp_checkupThumb.webp" alt="treatment camp checkup" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/17_clinic_awareness_program.jpg" data-fancybox="gallery" data-caption="clinic awareness program" class="gallery-item" data-category="camp">
+          <img src="img/Gallery/Thumb/17_clinic_awareness_programThumb.webp" alt="clinic awareness program" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/18_clinic_presentation.jpg" data-fancybox="gallery" data-caption="clinic presentation" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/18_clinic_presentationThumb.webp" alt="clinic presentation" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/19_clinic_presentation.jpg" data-fancybox="gallery" data-caption="clinic presentation" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/19_clinic_presentationThumb.webp" alt="clinic presentation" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/20_treatment_school_camp.jpg" data-fancybox="gallery" data-caption="treatment school camp" class="gallery-item" data-category="camp">
+          <img src="img/Gallery/Thumb/20_treatment_school_campThumb.webp" alt="treatment school camp" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/21_clinic_group_photo.jpg" data-fancybox="gallery" data-caption="clinic group photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/21_clinic_group_photoThumb.webp" alt="clinic group photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a> 
+        <a href="img/Gallery/22_treatment_school_camp.jpg" data-fancybox="gallery" data-caption="Treatment school camp" class="gallery-item" data-category="camp">
+          <img src="img/Gallery/Thumb/22_treatment_school_campThumb.webp" alt="Treatment school camp" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/23_treatment_school_camp.jpg" data-fancybox="gallery" data-caption="treatment school camp" class="gallery-item" data-category="camp">
+          <img src="img/Gallery/Thumb/23_treatment_school_campThumb.webp" alt="treatment school camp" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/24_equipment_opg_xray.jpeg" data-fancybox="gallery" data-caption="OPG X-Ray" class="gallery-item" data-category="equipment">
+          <img src="img/Gallery/Thumb/24_equipment_opg_xrayThumb.webp" alt="OPG X-Ray" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/25_treatment_intraoral_scanning.jpeg" data-fancybox="gallery" data-caption="Intraoral Scanning" class="gallery-item" data-category="treatments">
+          <img src="img/Gallery/Thumb/25_treatment_intraoral_scanningThumb.webp" alt="Intraoral Scanning" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/26_equipment_itero_scanner.jpg" data-fancybox="gallery" data-caption="Itero Scanner" class="gallery-item" data-category="equipment">
+          <img src="img/Gallery/Thumb/26_equipment_itero_scannerThumb.webp" alt="Itero Scanner" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/27_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="patient photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/27_clinic_patient_photoThumb.webp" alt="patient photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/28_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="patient photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/28_clinic_patient_photoThumb.webp" alt="patient photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/29_clinic_consultation.jpg" data-fancybox="gallery" data-caption="Consultation" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/29_clinic_consultationThumb.webp" alt="Consultation" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/30_treatment_chairside.jpg" data-fancybox="gallery" data-caption="Chairside Treatment" class="gallery-item" data-category="treatments">
+          <img src="img/Gallery/Thumb/30_treatment_chairsideThumb.webp" alt="Chairside Treatment" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        
+        <a href="img/Gallery/32_clinic_doctor_portrait.jpg" data-fancybox="gallery" data-caption="Doctor Portrait" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/32_clinic_doctor_portraitThumb.webp" alt="Doctor Portrait" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/33_clinic_doctor_portrait.jpg" data-fancybox="gallery" data-caption="Doctor Portrait" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/33_clinic_doctor_portraitThumb.webp" alt="Doctor Portrait" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/34_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="Patient Photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/34_clinic_patient_photoThumb.webp" alt="Patient Photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/35_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="Patient Photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/35_clinic_patient_photoThumb.webp" alt="Patient Photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/36_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="Patient Photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/36_clinic_patient_photoThumb.webp" alt="Patient Photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/37_clinic_patient_photo.jpg" data-fancybox="gallery" data-caption="Patient Photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/37_clinic_patient_photoThumb.webp" alt="Patient Photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Certificates/CertificateOralCancerCourse.jpg" data-fancybox="gallery" data-caption="Certificate Oral Cancer Course" class="gallery-item" data-category="awards">
+          <img src="img/Certificates/Thumb/CertificateOralCancerCourse.webp" alt="Certificate Oral Cancer Course" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Certificates/CertificateSwayam.jpg" data-fancybox="gallery" data-caption="Certificate Swayam" class="gallery-item" data-category="awards">
+          <img src="img/Certificates/Thumb/CertificateSwayam.webp" alt="Certificate Swayam" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Certificates/KridaSportCertificate.jpg" data-fancybox="gallery" data-caption="Krida Sport Certificate" class="gallery-item" data-category="awards">
+          <img src="img/Certificates/Thumb/KridaSportCertificate.webp" alt="Krida Sport Certificate" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Certificates/TCC_Certificate.jpg" data-fancybox="gallery" data-caption="TCC Certificate" class="gallery-item" data-category="awards">
+          <img src="img/Certificates/Thumb/TCC_Certificate.webp" alt="TCC Certificate" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/39_treatment_school_camp.jpg" data-fancybox="gallery" data-caption="School Camp" class="gallery-item" data-category="camp">
+          <img src="img/Gallery/39_treatment_school_camp.jpg" alt="School Camp" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/40_treatment_school_camp.jpg" data-fancybox="gallery" data-caption="School Camp" class="gallery-item" data-category="camp">
+          <img src="img/Gallery/40_treatment_school_camp.jpg" alt="School Camp" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/41_treatment_KarnavatiSchoolOfDentistry_school_camp.jpg" data-fancybox="gallery" data-caption="School Camp" class="gallery-item" data-category="camp">
+          <img src="img/Gallery/41_treatment_KarnavatiSchoolOfDentistry_school_camp.jpg" alt="School Camp" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/Awards_And_Certificates1.jpg" data-fancybox="gallery" data-caption="Awards And Certificates" class="gallery-item" data-category="awards">
+          <img src="img/Gallery/Awards_And_Certificates1.jpg" alt="Awards And Certificates" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/Awards_And_Certificates2.jpg" data-fancybox="gallery" data-caption="Awards And Certificates" class="gallery-item" data-category="awards">
+          <img src="img/Gallery/Awards_And_Certificates2.jpg" alt="Awards And Certificates" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/Awards_And_Certificates3.jpg" data-fancybox="gallery" data-caption="Awards And Certificates" class="gallery-item" data-category="awards">
+          <img src="img/Gallery/Awards_And_Certificates3.jpg" alt="Awards And Certificates" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/Awards_And_Certificates4.jpg" data-fancybox="gallery" data-caption="Awards And Certificates" class="gallery-item" data-category="awards">
+          <img src="img/Gallery/Awards_And_Certificates4.jpg" alt="Awards And Certificates" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/38_clinic_patient_photo.png" data-fancybox="gallery" data-caption="Patient Photo" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/Thumb/38_clinic_patient_photoThumb.webp" alt="Patient Photo" loading="lazy" />  
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/27_equipment_DentalOperator.jpg" data-fancybox="gallery" data-caption="Dental Operator" class="gallery-item" data-category="equipment">
+          <img src="img/Gallery/27_equipment_DentalOperator.jpg" alt="Dental Operator" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/37_clinic_ReceptionArea.jpg" data-fancybox="gallery" data-caption="Reception Area" class="gallery-item" data-category="clinic">
+          <img src="img/Gallery/37_clinic_ReceptionArea.jpg" alt="Reception Area" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/42_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/42_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/43_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/43_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/44_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/44_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/45_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/45_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/46_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/46_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/47_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/47_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/48_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/48_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/49_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/49_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/50_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/50_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/51_social_event_photo.jpg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/51_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/51_social_event_photo.jpeg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/51_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/52_social_event_photo.jpeg" data-fancybox="gallery" data-caption="Social Event" class="gallery-item" data-category="social-events">
+          <img src="img/Gallery/Thumb/52_social_event_photo.webp" alt="Social Event" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/before-after-image-1.png" data-fancybox="gallery" data-caption="before after image 1" class="gallery-item" data-category="before-after">
+          <img src="img/Gallery/Thumb/before-after-image-1.webp" alt="before after image 1" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+        <a href="img/Gallery/before-after-image-2.png" data-fancybox="gallery" data-caption="before after image 2" class="gallery-item" data-category="before-after">
+          <img src="img/Gallery/Thumb/before-after-image-2.webp" alt="before after image 2" loading="lazy" />    
+          <div class="gallery-overlay"><iconify-icon icon="ph:magnifying-glass-plus-bold"></iconify-icon></div>
+        </a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section spacer-y">
+    <div class="container text-center position-relative" style="z-index:2;">
+      <h2 class="reveal-item">Visit Our <span class="text-gradient">Clinic</span></h2>
+      <p class="section-desc reveal-item" style="color:rgba(255,255,255,0.8);max-width:560px;margin:0 auto 32px;">
+        See our facilities in person. Book a visit today!
+      </p>
+      <a href="contact.html" class="btn-white reveal-item">
+        <iconify-icon icon="ph:calendar-check-bold"></iconify-icon> Book Visit
+      </a>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="js/critical.js?v=1.1"></script>
+  <script defer src="js/lazy-loader.js?v=1.1"></script>
+  <script defer src="js/performance-optimizer.js?v=1.1"></script>
+  <script defer src="js/script.js?v=1.1"></script>
+  
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const hasGSAP = typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined";
+    if (hasGSAP) {
+      gsap.registerPlugin(ScrollTrigger);
+    }
+    function debounce(fn, delay) { let t; return function () { clearTimeout(t); t = setTimeout(fn, delay); }; }
+
+    function bindFancyboxSafe() {
+      if (typeof Fancybox === "undefined") return false;
+      Fancybox.unbind("[data-fancybox]");
+      Fancybox.bind("[data-fancybox]", {
+        Thumbs: { showOnStart: false },
+        Toolbar: { display: { left: [], middle: [], right: ["close"] } }
+      });
+      return true;
+    }
+
+    // Fancybox can arrive late due to defer/lazy loading.
+    if (!bindFancyboxSafe()) {
+      let tries = 0;
+      const maxTries = 20;
+      const timer = setInterval(() => {
+        tries += 1;
+        if (bindFancyboxSafe() || tries >= maxTries) clearInterval(timer);
+      }, 150);
+    }
+
+    /* ── Gallery Filter Logic ── */
+    const filterBtns = document.querySelectorAll(".gallery-filter-btn");
+    const galleryItems = document.querySelectorAll(".gallery-item");
+
+    function applyFilter(filter) {
+      // Update buttons
+      filterBtns.forEach((b) => b.classList.remove("active"));
+      const activeBtn = document.querySelector(`.gallery-filter-btn[data-filter="${filter}"]`);
+      if (activeBtn) activeBtn.classList.add("active");
+
+      // Save to localStorage
+      // localStorage.setItem("activeGalleryFilter", filter);
+
+      // Filter items & update Fancybox groups
+      let visibleCount = 0;
+      galleryItems.forEach((item) => {
+        if (filter === "all" || item.dataset.category === filter) {
+          item.style.display = "";
+          item.setAttribute("data-fancybox", "gallery");
+          visibleCount++;
+          if (hasGSAP) {
+            gsap.fromTo(item, { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.4, ease: "power2.out" });
+          } else {
+            item.style.opacity = "1";
+            item.style.transform = "none";
+          }
+        } else {
+          item.style.display = "none";
+          item.removeAttribute("data-fancybox");
+        }
+      });
+
+      // Rebind Fancybox to only include visible items
+      bindFancyboxSafe();
+
+      const grid = document.getElementById("galleryGrid");
+      if (grid) {
+        if (visibleCount > 0 && visibleCount <= 3) {
+          grid.classList.add("few-items");
+        } else {
+          grid.classList.remove("few-items");
+        }
+      }
+    }
+
+    // Attach click events
+    filterBtns.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        applyFilter(this.dataset.filter);
+      });
+    });
+
+    if (hasGSAP) {
+      window.addEventListener("resize", debounce(() => { ScrollTrigger.refresh(); }, 300));
+    }
+  });
+  </script>
+</body>
+</html>
+
+
+
+
+
